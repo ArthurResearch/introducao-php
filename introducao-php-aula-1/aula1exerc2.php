@@ -1,9 +1,10 @@
 <?php
 
-$n = 5;
-$r = 3;
+$total = 0;
 
-for ($i = 1; $i <= 10; ++$i) {
-    echo $n . PHP_EOL;
-    $n = $n + $r;
+for ($i = 1; $i <= 100; $i++){
+    echo $i . "\n";
+    $total = $total + $i;
 }
+
+echo $total;
